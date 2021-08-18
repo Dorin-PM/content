@@ -11,3 +11,6 @@
 !gitlab-pipelines-list project_id=123 pipeline_id=1254426
 !gitlab-jobs-list project_id=123 pipeline_id=1254426
 !gitlab-artifact-get project_id=123 job_id=6063195 artifact_path_suffix=artifacts/failed_tests.txt
+!gitlab-issues-list project_id="dsop%2Fopensource%2Fpalo-alto-networks%2Fdemisto%2Fbtfl-soup" state=opened search="Summary"
+!gitlab-merge-requests-list target_branch=development project_id="dsop%2Fopensource%2Fpalo-alto-networks%2Fdemisto%2Fbtfl-soup" state=merged
+!gitlab-edit-issue project_id="dsop%2Fopensource%2Fpalo-alto-networks%2Fdemisto%2Fbtfl-soup" issue_id=1 add_labels="To Do"
